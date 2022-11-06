@@ -41,7 +41,7 @@ include('includes/dbconnection.php');
                     <div class="col-xs-12 col-sm-12 col-md-12">
                         <div class="slider--content">
                             <div class="text-center">
-                                <h1>Find Your Favorite Property</h1>
+                                <h1 style="color:#09de91;">SEARCH YOUR DREAM HOME</h1>
                             </div>
                             <form class="mb-0" method="post" name="search" action="property-search.php">
                                 <div class="form-box search-properties">
@@ -86,7 +86,7 @@ while($row=mysqli_fetch_array($query))
                                                 <div class="select--box">
                                                     <i class="fa fa-angle-down"></i>
                                                     <select name="status" id="status" required="true">
-                                        <option value="">Select Any Status</option>
+                                        <option value="">Sale/Rent</option>
                                         <?php
 $query2=mysqli_query($con,"select distinct Status from  tblproperty");
 while($row2=mysqli_fetch_array($query2))
@@ -148,8 +148,8 @@ while($row2=mysqli_fetch_array($query2))
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12">
                         <div class="heading heading-2 text-center mb-70">
-                            <h2 class="heading--title">Latest Properties</h2>
-                            <p class="heading--desc">Duis aute irure dolor in reprehed in volupted velit esse dolore</p>
+                            <h2 class="heading--title">New Listings</h2>
+                            <p class="heading--desc">view all in New Delhi,India</p>
                         </div>
                         <!-- .heading-title end -->
                     </div>
