@@ -63,7 +63,7 @@ $_SESSION['uemail']=$ret['Email'];
                 <span class="icon-bar"></span>
                 </button>
                  <a class="logo" href="index.php">
-                    <strong style="color:#34495e; font-size:18px;">Real Estate Management System (REMS)</strong>
+                    <strong style="color:black; font-size:30px;">Real <span style="color:orangered;">Estate</span></strong>
                 </a>
                     </div>
 
@@ -77,12 +77,12 @@ $_SESSION['uemail']=$ret['Email'];
                             </li>
                             <!-- li end -->
 
-                             <li><a href="about.php">about</a></li>
+                             <li><a href="about.php">about Us</a></li>
 
                         
                             <li><a href="properties-grid.php">properties</a></li>
 
-                            <li><a href="contact.php">contact</a></li>
+                            <li><a href="contact.php">contact Us</a></li>
                               <!-- Profile Menu-->
                             <li class="has-dropdown">
                                 <?php if (strlen($_SESSION['remsuid']!=0)) {?>
@@ -127,7 +127,7 @@ $_SESSION['uemail']=$ret['Email'];
                                                             <form class="mb-0" method="post" name="signin">
                                                                 
                                                                 <div class="or-text">
-                                                                <span style="color: blue">REMS</span>
+                                                                <span style="color: black">Login Here</span>
                                                             </div>
                                                                 <div class="form-group">
                                                                     <input type="email" class="form-control" name="email" id="email" required="true" placeholder="Email Address">
@@ -148,7 +148,7 @@ $_SESSION['uemail']=$ret['Email'];
                                                         <form class="mb-0" method="post" name="signup">
                                                             
                                                             <div class="or-text">
-                                                                <span style="color: blue">REMS</span>
+                                                                <span style="color: black">Signup Here</span>
                                                             </div>
                                                             <div class="form-group">
                                                                 <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Full Name">
