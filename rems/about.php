@@ -46,11 +46,11 @@ include('includes/dbconnection.php');
                         <div class="title title-1 text-center">
                             <div class="title--content">
                                 <div class="title--heading">
-                                    <h1>About</h1>
+                                    <h1>About Us</h1>
                                 </div>
                                 <ol class="breadcrumb">
                                     <li><a href="index.php">Home</a></li>
-                                    <li class="active">About</li>
+                                    <li class="active">About Us</li>
                                 </ol>
                             </div>
                             <div class="clearfix"></div>
@@ -71,7 +71,7 @@ include('includes/dbconnection.php');
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-5 col-md-5">
-                        <div class="about--img"><img class="img-responsive" src="assets/images/about/real-estate.jpg" width="350" height="350" alt="about img"></div>
+                        <div class="about--img"><img class="img-responsive" src="assets/images/about/RealEstateInvestment.jpg" width="550" height="550" alt="about img"></div>
                     </div>
                     <!-- .col-md-5 -->
                     <div class="col-xs-12 col-sm-7 col-md-6 col-md-offset-1">
