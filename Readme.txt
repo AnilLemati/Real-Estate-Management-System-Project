@@ -1,8 +1,8 @@
 How to run the Real Estate Management System (rems)
 
-1. Download the zip file
+1. Download the file
 
-2. Extract the file and copy rems folder
+2. move file
 
 3.Paste inside root directory(for xampp xampp/htdocs)
 
@@ -12,5 +12,5 @@ How to run the Real Estate Management System (rems)
 
 6. Import remsdb.sql file
 
-7.Run the script http://localhost/rems/index.php
+7.Run the script http://localhost/Real Estate Management System Project/rems/index.php
 
