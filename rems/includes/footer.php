@@ -20,7 +20,7 @@ while ($row=mysqli_fetch_array($ret)) {
 
 ?>
                                 <div class="footer--logo">
-                                    <img src="assets/images/logo/logo-dark3.png" alt="logo">
+                                    <img src="assets/images/logo/usedlogo.jpg"width="200"height="100" alt="logo">
                                 </div>
                                 <p><?php  echo $row['PageDescription'];?></p>
                                 <div class="footer--contact">
@@ -35,7 +35,7 @@ while ($row=mysqli_fetch_array($ret)) {
                         <!-- .col-md-2 end -->
                         <div class="col-xs-12 col-sm-3 col-md-2 col-md-offset-1 widget--links">
                             <div class="widget--title">
-                                <h5>Company</h5>
+                                <h5>INFO</h5>
                             </div>
                             <div class="widget--content">
                                 <ul class="list-unstyled mb-0">
@@ -60,7 +60,7 @@ while ($row=mysqli_fetch_array($ret)) {
                         </div>
                         <!-- .col-md-2 end -->
                         <div class="col-xs-12 col-sm-12 col-md-4 widget--newsletter">
-                            <img src="assets/images/about/download.jpg" width="500" height="300" alt="logo">
+                            <img src="assets\images\about\realestatelogo2.png" width="300" height="300" alt="logo">
                         </div>
                         <!-- .col-md-4 end -->
 
@@ -76,7 +76,7 @@ while ($row=mysqli_fetch_array($ret)) {
                 <div class="container">
                     <div class="row footer--bar">
                         <div class="col-xs-12 col-sm-12 col-md-12">
-                            <span>© 2019 , Real Estate Management System.</span>
+                            <span>© 2022 , Real Estate Management System.</span>
                         </div>
 
                     </div>
