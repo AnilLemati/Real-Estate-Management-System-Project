@@ -46,11 +46,11 @@ include('includes/dbconnection.php');
                         <div class="title title-1 text-center">
                             <div class="title--content">
                                 <div class="title--heading">
-                                    <h1>Contact</h1>
+                                    <h1>Contact Us</h1>
                                 </div>
                                 <ol class="breadcrumb">
                                     <li><a href="index.php">Home</a></li>
-                                    <li class="active">Contact</li>
+                                    <li class="active">Contact Us</li>
                                 </ol>
                             </div>
                             <div class="clearfix"></div>
@@ -80,7 +80,7 @@ while ($row=mysqli_fetch_array($ret)) {
 ?>
                     <div class="col-xs-12 col-sm-12 col-md-3">
                         <div class="heading heading-2 mb-55">
-                            <h2 class="heading--title">Get In Touch</h2>
+                            <h2 class="heading--title">Contact details</h2>
                         </div>
                         <div class="contact-panel">
                             <h3>Address</h3>
@@ -88,7 +88,7 @@ while ($row=mysqli_fetch_array($ret)) {
                         </div>
                         <!-- .contact-panel -->
                         <div class="contact-panel">
-                            <h3>Phone:</h3>
+                            <h3>Phone No:</h3>
                             
                             <p>+<?php  echo $row['MobileNumber'];?></p>
                         </div>
@@ -103,7 +103,7 @@ while ($row=mysqli_fetch_array($ret)) {
 
                     <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-1 bg-white p-30 bg-white">
                     
-                        <div class="about--img"><img class="img-responsive" src="assets/images/about/images.jpg" width="2000" height="2000" alt="about img"></div>
+                        <div class="about--img"><img class="img-responsive" src="assets/images/about/investing2022.jpg" width="2000" height="2000" alt="about img"></div>
                     </div>
                     <!-- .col-md-8 end -->
                 </div>
