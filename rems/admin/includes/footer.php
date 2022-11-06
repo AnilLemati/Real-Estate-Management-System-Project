@@ -24,7 +24,7 @@
                 <div class="container">
                     <div class="row footer--bar">
                         <div class="col-xs-12 col-sm-12 col-md-12">
-                            <span>© 2022 <a href="http://themeforest.net/user/zytheme">Realestate Managment System</a>, All Rights Reserved.</span>
+                            <span>©2022 <a href="http://themeforest.net/user/zytheme">Realestate Managment System</a>, All Rights Reserved.</span>
                         </div>
 
                     </div>
