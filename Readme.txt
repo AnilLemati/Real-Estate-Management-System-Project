@@ -13,4 +13,8 @@ How to run the Real Estate Management System (rems)
 6. Import remsdb.sql file
 
 7.Run the script http://localhost/Real Estate Management System Project/rems/index.php
+8.FOR ADMIN LOGIN ..
+USERNAME=Anil
+password=password
+
 
